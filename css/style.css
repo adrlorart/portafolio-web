@@ -105,6 +105,33 @@
     display: block;
     width: 100%;
   }
+
+  /* Estilos para la pantalla de bienvenida */
+        #welcome-screen {
+            position: fixed; /* Se queda fijo en la pantalla */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+            background-color: #1a1a1a; /* Color de fondo oscuro */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer; /* Cambia el cursor para indicar que se puede hacer clic */
+            z-index: 1000; /* Se asegura que esté por encima de todo */
+            transition: opacity 0.5s ease; /* Transición suave al desaparecer */
+        }
+
+        #welcome-screen h1 {
+            font-size: 4rem;
+            font-family: sans-serif;
+        }
+
+        /* Clase para ocultar elementos */
+        .hidden {
+            display: none !important; /* Oculta el elemento */
+        }
   
   /* nav */
   
