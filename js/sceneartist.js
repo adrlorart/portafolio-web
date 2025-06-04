@@ -1,4 +1,4 @@
-// Archivo: js/SceneArtist.js
+// Archivo: js/sceneArtist.js
 
 export function createArtistScene(app, textoInicial) {
     const container = new PIXI.Container();
@@ -14,7 +14,7 @@ export function createArtistScene(app, textoInicial) {
     // Texto
     const estiloTextoArtista = new PIXI.TextStyle({
         fontFamily: '"Special Elite", cursive',
-        fontSize: 36,
+        fontSize: 40,
         fill: '#333333',
         align: 'center',
     });

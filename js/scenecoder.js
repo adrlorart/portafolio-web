@@ -1,12 +1,12 @@
-// Archivo: js/SceneCoder.js
+// Archivo: js/sceneCoder.js
 
 export function createCoderScene(app, onComplete) {
     const container = new PIXI.Container();
 
-    const textoCompleto = "Bienvenido a mi mundo...";
+    const textoCompleto = "Hola bienvenido";
     const estiloTextoCodigo = new PIXI.TextStyle({
         fontFamily: '"Courier New", Courier, monospace',
-        fontSize: 36,
+        fontSize: 40,
         fill: '#00FF41',
         align: 'center',
     });
@@ -23,7 +23,7 @@ export function createCoderScene(app, onComplete) {
 
     // Animación de escritura
     let i = 0;
-    const velocidadEscritura = 150;
+    const velocidadEscritura = 140;
     function escribir() {
         if (i < textoCompleto.length) {
             textoMaquina.text += textoCompleto.charAt(i++);
