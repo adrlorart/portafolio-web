@@ -16,5 +16,5 @@ welcomeScreen.addEventListener('click', () => {
     // ocultamos completamente la pantalla de bienvenida para que no interfiera.
     setTimeout(() => {
         welcomeScreen.style.display = 'none';
-    }, 500);
+    }, 1000);
 });

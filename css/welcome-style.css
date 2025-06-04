@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita que aparezcan barras de scroll */
+    background-color: #000; /* Fondo negro inicial */
+}
+
+canvas {
+    display: block; /* Elimina un pequeño espacio que a veces aparece debajo del canvas */
+}
